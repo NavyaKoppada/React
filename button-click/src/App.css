@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.app{
+  margin: 30px;
+  border: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.side {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.side button {
+  margin-right: 20px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.inp{
+  text-align: center;
+  width: 20px;
+  background-color: blueviolet;
+  color: white;
+}

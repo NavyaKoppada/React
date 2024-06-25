@@ -1,0 +1,54 @@
+.card-container {
+    background-color: white;
+    border: 1px solid rgba(121, 122, 143, 0.409);
+    border-radius: 2px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 20px auto; /* Center the card container */
+    height: 150px;
+  }
+  
+  .span{
+    margin-right: 10px;
+    color: gray;
+    font-size: small;
+  }
+ 
+  .details .span {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-info {
+    font-size: small;
+    color: gray;
+  }
+  
+  .remove-btn {
+    margin-top: 20px;
+  }
+
+  .makedef{
+    margin-right: 10px;
+  }
+
+  .remove-btn .makedef,.remove  {
+    background: none;
+    border: none;
+    font-size: small;
+    color: grey;
+    outline: none;
+    text-decoration: underline;
+  }
+  
+  .remove-btn .makedef:hover ,.remove:hover {
+    color: blue;
+  }
+  
+ .default-btn{
+    display: flex;
+    justify-content: space-between;
+ }
+  
